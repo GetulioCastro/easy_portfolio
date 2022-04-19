@@ -1,0 +1,103 @@
+body {
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32;
+    padding: 0 50px;
+}
+
+/* menu superior*/
+
+.container-fluid {
+    background-color: #ddd;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DD1C1A;
+}
+
+/* logotipo */
+.center {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.center img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #003366;
+}
+
+.main {
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.main-card {
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.main p {
+    font-size: 32;
+}
+
+/* página contato*/
+
+.contato {
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
+
+/* página dicas */
+.list-group {
+    margin-left: 75px;
+    list-style-type: none;
+}
+
+.list-group-item {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* rodapé */
+
+.footer ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.footer a {
+    margin: 25px;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}
